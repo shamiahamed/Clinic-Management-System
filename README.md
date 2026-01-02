@@ -1,37 +1,58 @@
-Key Features
+FastAPI Clinic Management System
 
-👩‍⚕️ Clinic & User Management
+A scalable and production-ready Clinic Management System API built using FastAPI and Async SQLAlchemy, following industry-standard backend best practices and a clean layered architecture.
 
-Patient, doctor, and staff management
+This system manages clinics, doctors, patients, and appointments, providing a secure and efficient backend for real-world healthcare applications.
 
-Secure user registration and login
-
-Role-based access control (Admin / Doctor / Staff / Patient)
-
+✨ Key Features
 🔐 Authentication & Authorization
+
+User registration and login
 
 JWT-based authentication
 
-Role-Based Access Control (RBAC)
+Role-Based Access Control (Admin / Doctor / Staff)
 
-Secure API access with token validation
+🏥 Clinic Management
 
-📋 Core Clinic Operations
+Create and manage clinics
 
-CRUD operations for clinic entities
+Assign doctors to clinics
 
-Soft delete implementation for data safety
+Maintain clinic details and status
 
-Structured data handling for real-world workflows
+👨‍⚕️ Doctor Management
+
+Doctor profile creation and updates
+
+Specialization & availability management
+
+Doctor–clinic association
+
+🧑‍🤝‍🧑 Patient Management
+
+Patient registration and profile management
+
+Secure storage of patient information
+
+Patient history tracking (extendable)
+
+📅 Appointment Management
+
+Book, update, cancel, and view appointments
+
+Doctor-wise and patient-wise scheduling
+
+Appointment status handling (Scheduled / Completed / Cancelled)
 
 🛠 Architecture & Code Quality
 
 Clean layered architecture
 Router → Controller → Service → Repository
 
-Custom exception handling with consistent API responses
+Custom exception handling
 
-Middleware for request logging & response formatting
+Middleware for logging & standardized API responses
 
 🗄 Database Support
 
@@ -43,8 +64,8 @@ Designed for easy schema extension
 
 📈 Production Ready
 
-Modular and maintainable codebase
+Modular, scalable, and maintainable codebase
 
-Built for scalability and future feature expansion
+Designed for real-world clinic workflows
 
-Suitable for real-world healthcare backend systems
+Easy to extend with billing, reports, and notifications
